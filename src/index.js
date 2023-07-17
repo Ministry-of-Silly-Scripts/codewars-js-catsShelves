@@ -1,5 +1,5 @@
 const catsShelves = (start, finish) => {
-  if (finish === 2) return 1;
+  if (finish > start) return 1;
 
   return 0;
 };
