@@ -1,6 +1,6 @@
 # Cats and shelves kata
 
-Cats and shelves kata performed by to practice TDD for the Jaguars training at IBM
+Cats and shelves kata performed to practice TDD for the Jaguars training at IBM
 
 [Cats and shelves on CodeWars](https://www.codewars.com/kata/62c93765cef6f10030dfa92b)
 
