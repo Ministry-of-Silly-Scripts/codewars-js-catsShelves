@@ -6,7 +6,7 @@ const catsShelves = (start, finish) => {
     if (cat_position + 3 <= finish) {
       n_jumps += 1;
       cat_position += 3;
-    } else if (cat_position + 1 <= finish) {
+    } else {
       n_jumps += 1;
       cat_position += 1;
     }
