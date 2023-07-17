@@ -1,6 +1,7 @@
 # Notes
 
 ## Description
+
 An infinite number of shelves are arranged one above the other in a staggered fashion.
 The cat can jump either one or three shelves at a time: from shelf `i` to shelf `i+1` or `i+3` (the cat cannot climb on the shelf directly above its head), according to the illustration:
 
@@ -8,15 +9,15 @@ The cat can jump either one or three shelves at a time: from shelf `i` to shelf 
                  ┌────────┐
                  │-6------│
                  └────────┘
-┌────────┐       
-│------5-│        
+┌────────┐
+│------5-│
 └────────┘  ┌─────► OK!
             │    ┌────────┐
             │    │-4------│
             │    └────────┘
 ┌────────┐  │
-│------3-│  │     
-BANG!────┘  ├─────► OK! 
+│------3-│  │
+BANG!────┘  ├─────► OK!
   ▲  |\_/|  │    ┌────────┐
   │ ("^-^)  │    │-2------│
   │ )   (   │    └────────┘
@@ -38,7 +39,7 @@ Start `1`, finish `5`, then answer is `2` `(1 => 4 => 5 or 1 => 2 => 5)`
 
 - Shelves
 - Cat
-    - Jump
+  - Jump
 
 ### Rules
 
@@ -57,9 +58,11 @@ Start `1`, finish `5`, then answer is `2` `(1 => 4 => 5 or 1 => 2 => 5)`
 TODO:
 
 # Pomodoro 1 🍅:
+
 - initial setup
-    - update README ✅
-    - update NOTES ✅
-    - update package.json ✅
-    - update code/test files ✅
+  - update README ✅
+  - update NOTES ✅
+  - update package.json ✅
+  - update code/test files ✅
 - domain discussion ✅
+- perform the 'canary' test just to check if the structure works construction ✅
