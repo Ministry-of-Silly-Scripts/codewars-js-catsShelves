@@ -1,8 +1,8 @@
-# XXXXX kata
+# Cats and shelves kata
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Cats and shelves kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Cats and shelves on CodeWars](https://www.codewars.com/kata/62c93765cef6f10030dfa92b)
 
 ## Prerequisites
 

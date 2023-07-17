@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const catsShelves = () => true;
 
 module.exports = {
-  placeholder,
+  catsShelves,
 };
