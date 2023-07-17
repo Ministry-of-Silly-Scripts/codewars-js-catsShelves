@@ -3,14 +3,12 @@ const catsShelves = (start, finish) => {
   let cat_position = start;
 
   while (cat_position < finish) {
-    if (cat_position + 2 <= finish) {
+    if (cat_position + 3 <= finish) {
       n_jumps += 1;
-      cat_position += 2;
+      cat_position += 3;
     } else if (cat_position + 1 <= finish) {
       n_jumps += 1;
       cat_position += 1;
-    } else {
-      break;
     }
   }
 

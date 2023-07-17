@@ -16,7 +16,7 @@ describe('catsShelves', () => {
   });
 
   it('should return 1 for start shelf 1 and finish shelf 3', () => {
-    expect(catsShelves(1, 3)).toBe(1);
+    expect(catsShelves(1, 3)).toBe(2);
   });
 
   it('should return 1 for start shelf 2 and finish shelf 3', () => {
@@ -25,5 +25,13 @@ describe('catsShelves', () => {
 
   it('should return 2 for start shelf 1 and finish shelf 5', () => {
     expect(catsShelves(1, 5)).toBe(2);
+  });
+
+  it('should return 3 for start shelf 1 and finish shelf 6', () => {
+    expect(catsShelves(1, 6)).toBe(3);
+  });
+
+  it('should return 2 for start shelf 2 and finish shelf 4', () => {
+    expect(catsShelves(2, 4)).toBe(2);
   });
 });
