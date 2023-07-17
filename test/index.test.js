@@ -6,6 +6,8 @@ describe('the catsShelves canary spec', () => {
   });
 });
 
-test('catsShelves', () => {
-  expect(catsShelves(0)).toBe(true);
+describe('catsShelves', () => {
+  it('should return 0 for start shelf 1 and finish shelf 1', () => {
+    expect(catsShelves(1, 1)).toBe(0);
+  });
 });

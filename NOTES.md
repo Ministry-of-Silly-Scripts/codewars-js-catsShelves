@@ -66,3 +66,4 @@ TODO:
   - update code/test files ✅
 - domain discussion ✅
 - perform the 'canary' test just to check if the structure works construction ✅
+- it should return 0 for start shelf 1 and finish shelf 1 ✅
