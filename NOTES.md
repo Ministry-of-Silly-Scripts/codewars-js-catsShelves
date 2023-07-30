@@ -65,7 +65,7 @@ TODO:
   - update package.json ✅
   - update code/test files ✅
 - domain discussion ✅
-- perform the 'canary' test just to check if the structure works construction ✅
+- perform the 'canary' test just to check if the structure works ✅
 - it should return 0 for start shelf 1 and finish shelf 1 ✅
 - it should return 1 for start shelf 1 and finish shelf 2 ✅
 - it should return 1 for start shelf 1 and finish shelf 3 ✅
